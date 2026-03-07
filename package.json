@@ -1,0 +1,27 @@
+{
+  "name": "backend_learn",
+  "version": "1.0.0",
+  "description": "learning backend functionalities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedAneesP/backend_learn.git"
+  },
+  "author": "Anees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedAneesP/backend_learn/issues"
+  },
+  "homepage": "https://github.com/MohammedAneesP/backend_learn#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14"
+  }
+}
